@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5f7c8a;
+}
+
+.formulario {
+    background-color: rgb(255, 255, 255);
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-text {
+    text-align: center;
+    color: #5f7c8a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-email {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.input-senha {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.input-submit {
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    background: #5f7c8a;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.input-submit:hover {
+    background-color: #4a5f6a;
+}
